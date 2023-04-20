@@ -1,48 +1,47 @@
-import { Doughnut, Line, Bar } from "react-chartjs-2";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faBell, faCog, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { Doughnut, Line, Bar } from 'react-chartjs-2'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faBell, faCog, faSearch } from '@fortawesome/free-solid-svg-icons'
 import 'chart.js/auto'
 
-
 const pieChartData = {
-  labels: ["Amazon S3", "Amazon ECR", "Amazon Rekognition"],
+  labels: ['Amazon S3', 'Amazon ECR', 'Amazon Rekognition'],
   datasets: [
     {
       data: [6500, 3500, 1500],
-      backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
-      hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
-    },
-  ],
-};
+      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+      hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56']
+    }
+  ]
+}
 
 const lineChartData = {
   labels: [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec'
   ],
   datasets: [
     {
-      label: "Expenditures",
+      label: 'Expenditures',
       fill: false,
       lineTension: 0.1,
-      backgroundColor: "#36A2EB",
-      borderColor: "#36A2EB",
-      pointBorderColor: "#36A2EB",
-      pointBackgroundColor: "#fff",
+      backgroundColor: '#36A2EB',
+      borderColor: '#36A2EB',
+      pointBorderColor: '#36A2EB',
+      pointBackgroundColor: '#fff',
       pointBorderWidth: 1,
       pointHoverRadius: 5,
-      pointHoverBackgroundColor: "#36A2EB",
-      pointHoverBorderColor: "#36A2EB",
+      pointHoverBackgroundColor: '#36A2EB',
+      pointHoverBorderColor: '#36A2EB',
       pointHoverBorderWidth: 2,
       data: [
         1230,
@@ -56,17 +55,17 @@ const lineChartData = {
         10234,
         11877,
         13565,
-        15432,
-      ],
-    },
-  ],
-};
+        15432
+      ]
+    }
+  ]
+}
 
 const barChartData = {
   labels: [
-    "AWS",
-    "Azure",
-    "GCP",
+    'AWS',
+    'Azure',
+    'GCP'
   ],
   datasets: [
     {
@@ -78,9 +77,9 @@ const barChartData = {
       label: 'Forecast',
       data: [1500, 1200, 2000],
       backgroundColor: '#36A2EB'
-    },
+    }
   ]
-};
+}
 
 const Dashboard = () => {
   return (
@@ -103,7 +102,7 @@ const Dashboard = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Dashboard;
+export default Dashboard

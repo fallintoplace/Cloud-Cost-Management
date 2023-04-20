@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaBars, FaSearch, FaBell, FaCog, FaFileAlt, FaCloud, FaInbox } from 'react-icons/fa';
+import React from 'react'
+import { FaBars, FaSearch, FaBell, FaCog, FaFileAlt, FaCloud, FaInbox } from 'react-icons/fa'
 
 const NavBar: React.FC = () => {
   return (
@@ -44,7 +44,7 @@ const NavBar: React.FC = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar
