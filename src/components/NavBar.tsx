@@ -33,7 +33,7 @@ const NavBar: React.FC = () => {
         <div className='flex items-center ml-6'>
           <div className='bg-white h-8 w-8 rounded-full overflow-hidden'>
             <img
-              src='https://nordcloud.com/wp-content/uploads/2021/09/ninja-1.png'
+              src='https://img.freepik.com/vektoren-kostenlos/netter-ninja-mit-kunai-karikatur-flacher-cartoon-stil_138676-2760.jpg'
               alt='User Avatar'
             />
           </div>
